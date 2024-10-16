@@ -1,0 +1,224 @@
+.bgimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    
+    
+}
+/* Main navbar styles */
+.navbar {
+    height: 58px;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .navv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    /* border: 2px solid; */
+    padding: 10px;
+  }
+  /* QTrip logo */
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Menu items */
+  .navbar p:not(:first-child) {
+    font-size: 18px;
+    margin-right: 50px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .navbar p:last-child {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  /* Register button */
+  #btnn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btnn:hover {
+    background-color: #e64a19;
+  }
+  
+.home-div{
+    color: white;
+}
+.home-div p{
+    font-size: 25px;
+    font-weight: 100;
+}
+.home-div input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+@media(min-width:"1000px"){
+    .home-div input{
+        width: 900px;
+    }
+}
+#container{
+    /* padding: 20px; */
+    margin: 500px auto;
+    padding: 0px;
+}
+.cards{
+    height: 350px;
+    width: 100%;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    overflow: hidden;
+    border-radius: 10px;
+    /* padding: 50px; */
+}
+.card-body{
+    padding: 0px;
+    /* margin: 20px; */
+}
+.card-img{
+    height: 100%;
+    /* width: 100%; */
+    position: relative;
+    transition-duration: .2s;
+    background-color: black;
+
+}
+.card-img:hover{
+    transform: scale(1.1);
+    /* opacity: 30%; */
+    /* opacity:50%; */
+    filter: brightness(50%);
+    
+    
+}
+
+.title{
+    position:absolute;
+    bottom: 50px;
+    /* left:35%; */
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+    justify-content: center;
+    /* margin: 1px 55px; */
+    width: 100%;
+
+
+    
+}
+.card-text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    /* position:absolute; */
+    /* bottom: px; */
+    margin-top: 15px;
+}
+#city-img{
+    height: 240px;
+    /* position:absolute; */
+    transition-duration: .2s;
+}
+#city-img:hover{
+    filter: brightness(50%);
+}
+
+#category{
+    position: absolute;
+    right: -8px;
+    top: 20px;
+    background-color: rgb(255, 145, 0);
+    color: #fff;
+    background: rgb(255, 145, 0);
+    border-radius: 10px 0px 0px 10px;
+    font-weight: bolder;
+    padding: 5px 30px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1p rgb(236, 229, 229);
+}
+.img-box{
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+}
+.img-box img{
+    height: 600px;
+}
+#content{
+    border: .1px solid rgb(223, 216, 216);
+    padding: 20px;
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    margin-left:40% ;
+}
+
+/* SubHome */
+
+#filter-div{
+    display: flex;
+    gap: 30px;
+    height: 70px;
+    align-items: center;
+    /* padding: 80px; */
+}
+#sub-main-div{
+    /* padding: 70px; */
+    padding-left: 120px;
+    padding-top: 70px;
+    padding-right: 120px;
+}
+#explore{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#list{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.box,input{
+    border: 1px solid rgba(128, 128, 128, 0.289);
+    padding: 7px;
+    border-radius: 6px;
+}
